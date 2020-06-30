@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Practices</string>
+    <string name="button_name">TapME</string>
+    <string name="some_text">Hi, This is Shafi.</string>
+    <string name="my_name">Hello, This is Shafi</string>
+    <string name="another_button">TakeMeToAnotherActivity</string>
+    <string name="some_text_another">This is another activity from MainActivity. We created this activity for observing INTENT</string>
+    <string name="back_button">Back Button</string>
+</resources>

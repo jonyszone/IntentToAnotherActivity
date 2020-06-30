@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonBtn"
+        android:layout_width="82dp"
+        android:layout_height="54dp"
+        android:layout_below="@+id/textViewTV"
+        android:layout_alignBottom="@id/buttonBtn"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="49dp"
+        android:layout_marginBottom="253dp"
+        android:textColor="@drawable/text_color"
+        android:background="@drawable/button_state"
+        android:text="@string/button_name"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:id="@+id/textViewTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="This is a TextView"
+        android:textColor="@drawable/text_color"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/takeMeToAnotherActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="150dp"
+        android:text="@string/another_button"
+        android:textAllCaps="false"
+        />
+</RelativeLayout>
+
